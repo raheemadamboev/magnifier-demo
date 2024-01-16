@@ -69,3 +69,13 @@ dependencies {
     // core
     implementation(libs.core)
 }
+
+allprojects {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile::class).all {
+        kotlinOptions {
+            freeCompilerArgs += listOf(
+                "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi"
+            )
+        }
+    }
+}
