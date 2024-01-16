@@ -6,4 +6,4 @@ A simple app that demonstrates using Magnifier modifier in Jetpack Compose.
 
 **Magnifier Demo**
 
-<a href="https://github.com/raheemadamboev/name/blob/magnifier-demo/app-debug.apk">Download demo</a>
+<a href="https://github.com/raheemadamboev/magnifier-demo/blob/main/app-debug.apk">Download demo</a>
